@@ -4,28 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="145dp"
-        android:layout_height="47dp"
-        android:text="@string/msg_de_bienvenue"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
+    tools:context=".page_principale">
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="145dp"
-        android:layout_height="47dp"
-        android:text="@string/commencer"
+        android:id="@+id/button_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.796" />
+        app:layout_constraintVertical_bias="0.023" />
 
+    <Button
+        android:id="@+id/button_dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vue de dos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 </androidx.constraintlayout.widget.ConstraintLayout>

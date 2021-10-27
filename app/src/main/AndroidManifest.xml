@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetIHM">
         <activity
+            android:name=".profil"
+            android:exported="true" />
+        <activity
+            android:name=".dos_silhouette"
+            android:exported="true" />
+        <activity
+            android:name=".page_principale"
+            android:exported="true" />
+        <activity
             android:name=".Question1"
             android:exported="true" />
         <activity
