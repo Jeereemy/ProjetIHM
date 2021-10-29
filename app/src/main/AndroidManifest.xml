@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetIHM">
         <activity
+            android:name=".quadri"
+            android:exported="true" />
+        <activity
+            android:name=".abdos"
+            android:exported="true" />
+        <activity
+            android:name=".biceps"
+            android:exported="true" />
+        <activity
+            android:name=".epaules"
+            android:exported="true" />
+        <activity
+            android:name=".pectoraux"
+            android:exported="true" />
+        <activity
             android:name=".profil"
             android:exported="true" />
         <activity
