@@ -82,7 +82,7 @@ public class page_principale extends AppCompatActivity {
         startActivity(intent);
     }
     public void openpectoraux() {
-        Intent intent = new Intent(this, pectoraux.class);
+        Intent intent = new Intent(this, dev_coucher.class);
         startActivity(intent);
     }
     public void openepaules() {

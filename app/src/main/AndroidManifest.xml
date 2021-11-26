@@ -10,15 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetIHM">
         <activity
-            android:name=".poulie_basse"
-            android:exported="true" />
-        <activity
-            android:name=".butterfly"
-            android:exported="true" />
-        <activity
-            android:name=".dev_incliner"
-            android:exported="true" />
-        <activity
             android:name=".dev_coucher"
             android:exported="true" />
         <activity
@@ -58,9 +49,6 @@
             android:name=".epaules"
             android:exported="true" />
         <activity
-            android:name=".pectoraux"
-            android:exported="true" />
-        <activity
             android:name=".profil"
             android:exported="true" />
         <activity
@@ -71,9 +59,6 @@
             android:exported="true" />
         <activity
             android:name=".Question1"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true" />
     </application>
 

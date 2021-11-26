@@ -9,21 +9,23 @@
         <entry key="app/src/main/res/layout/activity_biceps.xml" value="0.1453125" />
         <entry key="app/src/main/res/layout/activity_butterfly.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_chargement.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_dev_coucher.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_dev_incliner.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_dev_coucher.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_dev_incliner.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_dos_silhouette.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_epaules.xml" value="0.159375" />
         <entry key="app/src/main/res/layout/activity_exos_pecs.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_fessiers.xml" value="0.1421875" />
         <entry key="app/src/main/res/layout/activity_ischio.xml" value="0.128125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_page_principale.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_page_principale.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_pectoraux.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_poulie_basse.xml" value="0.2838541666666667" />
         <entry key="app/src/main/res/layout/activity_profil.xml" value="0.1068840579710145" />
         <entry key="app/src/main/res/layout/activity_quadri.xml" value="0.1453125" />
         <entry key="app/src/main/res/layout/activity_question1.xml" value="0.26811594202898553" />
         <entry key="app/src/main/res/layout/activity_triceps.xml" value="0.1421875" />
+        <entry key="app/src/main/res/layout/fragment_1.xml" value="0.190625" />
+        <entry key="app/src/main/res/layout/fragment_2.xml" value="0.2838541666666667" />
       </map>
     </option>
   </component>

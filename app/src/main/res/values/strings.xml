@@ -4,6 +4,8 @@
     <string name="commencer">Commencer</string>
     <string name="question1">question1</string>
     <string name="suivant">suivant</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
