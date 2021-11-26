@@ -13,4 +13,35 @@
         android:text="quadri"
         tools:layout_editor_absoluteX="118dp"
         tools:layout_editor_absoluteY="213dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout_quadri"
+        android:layout_width="409dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="409dp"
+            android:layout_height="65dp"
+            android:text="Exercices" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="409dp"
+            android:layout_height="65dp"
+            android:text="Performances" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_quadri"
+        android:layout_width="411dp"
+        android:layout_height="663dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tablayout_quadri" />
 </androidx.constraintlayout.widget.ConstraintLayout>

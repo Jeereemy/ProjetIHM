@@ -25,9 +25,9 @@ public class epaules extends AppCompatActivity {
 
         tabLayout.setupWithViewPager(viewPager);
 
-        VPAdapter_epaules vpAdapter = new VPAdapter_epaules(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        vpAdapter.addfragment(new Fragment_epaules(), "Exercices");
-        vpAdapter.addfragment(new Fragment_epaules2(), "Description");
+        VPAdapter vpAdapter = new VPAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        vpAdapter.addfragment(new Fragment1(), "Exercices");
+        vpAdapter.addfragment(new Fragment2(), "Performances");
 
         viewPager.setAdapter(vpAdapter);
     }
