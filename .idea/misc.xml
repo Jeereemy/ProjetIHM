@@ -31,6 +31,13 @@
         <entry key="app/src/main/res/layout/fragment_2.xml" value="0.2838541666666667" />
         <entry key="app/src/main/res/layout/fragment_abdos1.xml" value="0.12291666666666666" />
         <entry key="app/src/main/res/layout/fragment_abdos2.xml" value="0.12291666666666666" />
+        <entry key="app/src/main/res/layout/fragment_biceps1.xml" value="0.159375" />
+        <entry key="app/src/main/res/layout/fragment_dorsaux1.xml" value="0.2572463768115942" />
+        <entry key="app/src/main/res/layout/fragment_epaules1.xml" value="0.159375" />
+        <entry key="app/src/main/res/layout/fragment_fessiers1.xml" value="0.159375" />
+        <entry key="app/src/main/res/layout/fragment_ischio1.xml" value="0.159375" />
+        <entry key="app/src/main/res/layout/fragment_quadri1.xml" value="0.159375" />
+        <entry key="app/src/main/res/layout/fragment_triceps1.xml" value="0.159375" />
       </map>
     </option>
   </component>

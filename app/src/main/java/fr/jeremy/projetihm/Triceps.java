@@ -26,8 +26,8 @@ public class Triceps extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
 
         VPAdapter vpAdapter = new VPAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        vpAdapter.addfragment(new Fragment1(), "Exercices");
-        vpAdapter.addfragment(new Fragment2(), "Performances");
+        vpAdapter.addfragment(new fragment_triceps1(), "Exercices");
+        vpAdapter.addfragment(new fragment_triceps2(), "Performances");
 
         viewPager.setAdapter(vpAdapter);
     }
